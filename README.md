@@ -1,7 +1,4 @@
-### Step 1: Rewrite the GitHub README Description
-The current description mentions Jenkins, which you’ve moved away from due to complexities (e.g., webhook and credential issues). Here’s a revised description that reflects your use of MkDocs and GitHub Actions:
 
-```markdown
 # Sample API Documentation
 
 This project hosts the documentation for the Sample API, a simple Express-based API deployed at [https://sample-api-pzv2.onrender.com](https://sample-api-pzv2.onrender.com). The documentation is written in Markdown, organized locally in the `docs/` directory, and managed using Git. It is built into a static site using [MkDocs](https://www.mkdocs.org/) with the Material theme and automatically deployed to GitHub Pages using [GitHub Actions](https://github.com/features/actions).
