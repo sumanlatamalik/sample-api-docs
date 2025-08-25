@@ -6,7 +6,9 @@ theme:
   name: material
 nav:
   - Home: index.md
-  - API Endpoints: endpoints/index.md
+  - API Endpoints:
+      - Overview: endpoints/index.md
+      - Users: endpoints/users.md
   - Setup Guide: setup/index.md
   - Testing: testing/index.md
   - Deployment: deployment/index.md
