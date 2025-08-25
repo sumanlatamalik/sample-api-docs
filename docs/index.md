@@ -1,10 +1,23 @@
-# Sample API Documentation
+# Authentication API
 
-## Overview
-A simple Express API hosted at https://sample-api-pzv2.onrender.com.
+## About the Web Services
+- [Test the Web Services API using Restlet Client](#)
+- [Tutorials](#)
 
-## GET /
-- **Description**: Returns a welcome message.
-- **Response**: `200 OK`
-  ```json
-  "Hello from my sample API!"
+## Resources
+- [Multi-node authentication](#)
+- [MINT Authentication](#)
+- [DICOM Study Validation Authentication](#)
+- [DICOM Study QC Tools Authentication](#)
+- [Study Timeline Authentication](#)
+- [WADO Authentication](#)
+- [STOW-RS Authentication](#)
+- [Epic Binary Data Retrieval API Support Authentication](#)
+
+## Authentication
+
+### Log in
+**POST** `/rest/login`
+
+### Log out
+**POST** `/rest/logout`
