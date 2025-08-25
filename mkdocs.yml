@@ -1,5 +1,5 @@
 site_name: Sample API Docs
-site_url: https://sumanlatamalik.github.io/sample-api-docs/
+site_url: http://localhost:8000
 docs_dir: docs
 site_dir: site
 theme:
